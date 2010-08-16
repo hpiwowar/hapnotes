@@ -1,0 +1,48 @@
+# How I'm making an open notebook
+
+##GitHub account.
+
+I previously had an account at github
+If not, follow these directions:  http://help.github.com/ particularly
+> Install Git
+> Generate an SSH keypair – If you have troubles
+> Set your user and email in git
+
+It is a little convoluted with SSH keys, but not too bad.
+
+##Create an open notebook repository
+
+Create a new repository
+Follow their directions on initial local content and first commit:
+> mkdir hapnotes
+> cd hapnotes
+> git init
+> touch README
+> git add README
+> git commit -m 'first commit'
+> git remote add origin git@github.com:hpiwowar/hapnotes.git
+> git push origin master
+
+Go to repository page: http://github.com/hpiwowar/hapnotes
+
+Click "Admin" button near the top of the page
+Wikis is checked
+click the "Upgrade" button to upgrade to new version of wikis
+ 
+Now can see the wiki here:  http://github.com/hpiwowar/hapnotes/wiki
+And because I'm never going to use it, I disable the previous wiki version with the "Disable Classic Wikis" button at the bottom of this page
+
+## Now create a wiki page
+Markdown reference:  http://www.darkcoding.net/software/markdown-quick-reference/
+Save it in the open notebook directory structure, I used a .txt extension
+
+Then in the command line, above it, use
+ localhost:hapnotes hpiwowar$ git add .
+
+then to see it:
+ git status
+
+Now commit it and push it
+
+
+
