@@ -2,7 +2,7 @@
 
 ##GitHub account.
 
-I previously had an account at github
+I previously had an accOunt at github
 If not, follow these directions:  http://help.github.com/ particularly
 > Install Git
 > Generate an SSH keypair – If you have troubles
@@ -14,14 +14,14 @@ It is a little convoluted with SSH keys, but not too bad.
 
 Create a new repository
 Follow their directions on initial local content and first commit:
-> mkdir hapnotes
-> cd hapnotes
-> git init
-> touch README
-> git add README
-> git commit -m 'first commit'
-> git remote add origin git@github.com:hpiwowar/hapnotes.git
-> git push origin master
+ mkdir hapnotes
+ cd hapnotes
+ git init
+ touch README
+ git add README
+ git commit -m 'first commit'
+ git remote add origin git@github.com:hpiwowar/hapnotes.git
+ git push origin master
 
 Go to repository page: http://github.com/hpiwowar/hapnotes
 
@@ -43,6 +43,17 @@ then to see it:
  git status
 
 Now commit it and push it
+
+ localhost:hapnotes hpiwowar$ git status
+ # On branch master
+ # Changes to be committed:
+ #   (use "git reset HEAD <file>..." to unstage)
+ #
+ #	new file:   meta/steps_starting_github_wiki_notebook.txt
+ #
+ localhost:hapnotes hpiwowar$ git commit -m "add steps on how to start github wiki notebook"
+
+
 
 
 
